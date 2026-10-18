@@ -36,7 +36,7 @@
 </div>
 
 <h1>Bul Beni — Privacy Policy</h1>
-<div class="updated">Last updated: August 20, 2026</div>
+<div class="updated">Last updated: October 18, 2026</div>
 
 <p>This Privacy Policy explains what personal data is collected, how it is used, who it is shared with, and what your rights are when you use the <strong>Bul Beni</strong> mobile app ("the App", "we"). By using the App, you agree to this policy.</p>
 
@@ -51,35 +51,44 @@
 <h3>2.1 Information you provide at registration</h3>
 <ul>
   <li>Email address and password</li>
-  <li>Name, date of birth, gender, nationality, marital status</li>
-  <li>Bio text (optional) and your interests (optional)</li>
+  <li>Nickname (username), full name, date of birth, gender, nationality, marital status</li>
+  <li>About text (optional) and your interests (optional)</li>
 </ul>
+<p>Your date of birth is stored in a separate record that only you can see; other users only see your age (you can hide it).</p>
 <h3>2.2 Profile and content information</h3>
 <ul>
-  <li>Profile photos, gallery photos, and temporary (24-hour) "story" images you share</li>
-  <li>Chat messages, photos, and files you send/receive</li>
+  <li>Profile photos, gallery photos and temporary (24-hour) images you share as a "story"</li>
+  <li>Chat messages, photos, files and in-chat games (e.g. Tic-Tac-Toe) you send/receive</li>
   <li>Activities you create or join</li>
-  <li>Your friendship relationships</li>
-  <li>Your virtual gift sending/receiving history and points balance</li>
+  <li>Posts, replies and likes you share in Nearby (Çevrem)</li>
+  <li>Your friendships and the users you block</li>
+  <li>Your virtual gift history and points balance</li>
 </ul>
 <h3>2.3 Location information</h3>
-<p>The App collects your GPS location to show nearby users on the map. This location is shown to other users according to the distance/visibility setting you choose, and is used to send nearby-activity notifications matching your interests. You can turn off location permission from your device settings at any time.</p>
+<p>The App reads your location from your device's GPS but <strong>does not store your exact location or show it to other users</strong>. Your location is saved on the server rounded to about 1 km (0.01 degrees); only this approximate location is used on the map and for distance calculations. When you turn off Settings &gt; Privacy &gt; "Show me on the map", your stored location is deleted, you are hidden from the map and you will not receive nearby activity notifications meanwhile.</p>
+<ul>
+  <li><strong>Activities:</strong> Everyone sees only the approximate area and the day; the exact time, meeting place and description are visible only to participants you approve.</li>
+  <li><strong>Nearby posts:</strong> Saved with an approximate location so they can be shown to users near you.</li>
+</ul>
+<p>You can turn off location permission at any time in your device settings.</p>
 <h3>2.4 Automatically collected information</h3>
 <ul>
-  <li>Online/offline status and last-seen time</li>
+  <li>Online/offline status and last seen time</li>
   <li>Push notification token (Firebase Cloud Messaging)</li>
-  <li>In-app purchase and rewarded-ad viewing history</li>
+  <li>In-app purchase and ad viewing history</li>
+  <li>App usage statistics (Firebase Analytics): events such as which screens and features are used</li>
 </ul>
 
 <h2>3. How We Use Your Information</h2>
 <ul>
-  <li>To create, verify, and give you access to your account</li>
-  <li>To show you nearby users/activities matching your interests</li>
-  <li>To provide messaging, gifting, friendship, and activity features</li>
+  <li>To create and verify your account and give you access</li>
+  <li>To show users, activities and Nearby posts near you that match your interests</li>
+  <li>To provide messaging, gifts, in-chat games, friendships and activities</li>
   <li>To send you notifications</li>
-  <li>To translate messages in different languages (Google Cloud Translation API)</li>
+  <li>To translate messages and posts into your language: the text is sent through our servers to Google Cloud Translation (a daily limit per user applies)</li>
   <li>To process in-app purchases and ad rewards</li>
-  <li>To detect and prevent abuse and fake accounts</li>
+  <li>To review aggregated usage statistics to improve the App</li>
+  <li>To detect and prevent abuse, fake and multiple accounts, and to review reports</li>
 </ul>
 
 <h2>4. Who We Share Your Information With</h2>
@@ -87,24 +96,32 @@
 <table>
   <tr><th>Service</th><th>Provider</th><th>Purpose</th></tr>
   <tr><td>Firebase (Auth, Firestore, Storage, Messaging, Functions)</td><td>Google LLC</td><td>Account, database, file storage, notifications, server logic</td></tr>
+  <tr><td>Firebase Analytics</td><td>Google LLC</td><td>App usage statistics</td></tr>
   <tr><td>Google Maps Platform</td><td>Google LLC</td><td>Map display</td></tr>
-  <tr><td>Google Cloud Translation API</td><td>Google LLC</td><td>Message translation</td></tr>
+  <tr><td>Google Cloud Translation API</td><td>Google LLC</td><td>Message and post translation</td></tr>
   <tr><td>Google AdMob</td><td>Google LLC</td><td>Rewarded ad display</td></tr>
   <tr><td>Google Play Billing</td><td>Google LLC</td><td>In-app purchase processing</td></tr>
 </table>
-<p>Additionally, other users can see your name, profile info (subject to your privacy settings), photos, location, and the messages you send/receive with them.</p>
+<p>Other users can see your nickname, profile info (subject to your privacy settings), photos, approximate location (if "Show me on the map" is on), your Nearby posts and the messages you exchange with them. In the App, your full name is shown only to your friends.</p>
 
 <h2>5. Data Retention</h2>
-<p>Your data is kept for as long as your account is active. <strong>You can delete your account instantly, at any time, from within the app via Profile &gt; "Delete My Account"</strong> — this action is irreversible. Some records may be kept longer where required by law.</p>
+<p>Your data is kept while your account is active. Nearby posts and stories disappear after 24 hours; Nearby posts and their replies are deleted from the server automatically.</p>
+<p><strong>You can delete your account at any time in the App via Profile &gt; Settings &gt; "Delete My Account"</strong> — this cannot be undone. Deletion runs on our servers and removes: your profile, photos and story, your date of birth, your activities and your participation in other activities, your friend requests, your Nearby posts, replies and likes, the chats you took part in (with their messages and attachments, for both sides), and finally your account itself.</p>
+<p>After your account is deleted, we keep only:</p>
+<ul>
+  <li><strong>Purchase records</strong> (which points package was bought and when): for financial record-keeping and to prevent the same purchase from being reused.</li>
+  <li><strong>An irreversible hash (SHA-256) of your email address</strong>, not the address itself: to prevent the "first activity join is free" benefit from being claimed again by deleting and re-creating an account.</li>
+  <li><strong>Reports you made and reports about you</strong>: for user safety and possible legal requests.</li>
+</ul>
 
 <h2>6. Your Rights</h2>
 <ul>
-  <li>You can view and update most of your profile information (name and "bio" are fixed after registration),</li>
-  <li>You can control the visibility of your photos and your age/gender/marital status information,</li>
-  <li>You can block users, unfriend, and delete chats/messages,</li>
-  <li><strong>You can permanently delete your account instantly from within the app via Profile &gt; "Delete My Account".</strong></li>
+  <li>You can view and update most of your profile info (full name and "about" are fixed after registration; nickname and date of birth cannot be changed once added). You can see your account details in Profile &gt; Settings,</li>
+  <li>You can control the visibility of your photos, of your age/gender/marital status, and whether you appear on the map,</li>
+  <li>You can block and report users, remove friends, and delete chats/messages,</li>
+  <li><strong>You can permanently delete your account directly in the App via Profile &gt; Settings &gt; "Delete My Account".</strong></li>
 </ul>
-<p>Depending on your region (e.g. GDPR), you may have rights to access, correct, delete, and object to the processing of your data. For questions, contact: iskorpiit@gmail.com</p>
+<p>Depending on where you live (KVKK, GDPR, etc.), you may have the right to access, correct, delete, object to processing of, and port your data. To exercise these rights or for questions: iskorpiit@gmail.com</p>
 
 <h2>7. Children's Privacy</h2>
 <p>Bul Beni is intended <strong>only for users aged 18 and over</strong>. Date-of-birth verification is performed at registration.</p>
