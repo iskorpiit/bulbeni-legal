@@ -55,6 +55,7 @@
   <li>Über-mich-Text (optional) und deine Interessen (optional)</li>
   <li>Wenn du dich <strong>mit Google anmeldest</strong>: Name und E-Mail-Adresse deines Google-Kontos (um deinen Namen vorauszufüllen und dein Konto zu erkennen)</li>
   <li><strong>Telefonnummer (optional)</strong>: wenn du dein Profil bestätigen möchtest. Deine Nummer wird per SMS-Code bestätigt und nur in unserem Authentifizierungssystem (Firebase Authentication) gespeichert; sie wird nicht in die Profildatenbank geschrieben und anderen Nutzern nie angezeigt. Andere sehen nur das ✓-Abzeichen „bestätigt“ in deinem Profil. Eine Nummer kann nur für ein Konto verwendet werden.</li>
+  <li><strong>Einladungssystem</strong>: dein persönlicher Einladungscode; wenn du dich mit einem Einladungscode registriert hast, der Nutzer, der dich eingeladen hat (um die Einladungsprämie zu vergeben — anderen Nutzern nie angezeigt), sowie die Anzahl der Freunde, die du erfolgreich eingeladen hast.</li>
 </ul>
 <p>Dein Geburtsdatum wird in einem separaten Datensatz gespeichert, den nur du sehen kannst; andere Nutzer sehen nur dein Alter (du kannst es ausblenden).</p>
 <h3>2.2 Profil- und Inhaltsdaten</h3>
@@ -114,7 +115,7 @@
 <p>Nach der Löschung deines Kontos speichern wir nur noch:</p>
 <ul>
   <li><strong>Kaufbelege</strong> (welches Punktepaket wann gekauft wurde): wegen gesetzlicher Aufbewahrungspflichten und um zu verhindern, dass derselbe Kauf erneut verwendet wird.</li>
-  <li><strong>Einen nicht umkehrbaren Hashwert (SHA-256) deiner E-Mail-Adresse</strong>, nicht die Adresse selbst: um zu verhindern, dass der Vorteil „erste Aktivitätsteilnahme kostenlos“ durch Löschen und Neuanlegen eines Kontos erneut genutzt wird.</li>
+  <li><strong>Einen nicht umkehrbaren Hashwert (SHA-256) deiner E-Mail-Adresse</strong>, nicht die Adresse selbst: um zu verhindern, dass der Vorteil „erste Aktivitätsteilnahme kostenlos“ und die Einladungsprämie durch Löschen und Neuanlegen eines Kontos erneut genutzt werden.</li>
   <li><strong>Meldungen, die du gemacht hast oder die dich betreffen</strong>: für die Sicherheit der Nutzer und mögliche rechtliche Anfragen.</li>
 </ul>
 

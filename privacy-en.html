@@ -55,6 +55,7 @@
   <li>About text (optional) and your interests (optional)</li>
   <li>If you <strong>sign in with Google</strong>: the name and email address of your Google account (to prefill your full name and recognise your account)</li>
   <li><strong>Phone number (optional)</strong>: if you choose to verify your profile. Your number is verified with an SMS code and stored only in our authentication system (Firebase Authentication); it is not written to the profile database and is never shown to other users. Others only see the ✓ "verified" badge on your profile. A number can only be used for one account.</li>
+  <li><strong>Invite system</strong>: your personal invite code; if you signed up with an invite code, the user who invited you (to grant the invite reward — never shown to other users), and the number of friends you successfully invited.</li>
 </ul>
 <p>Your date of birth is stored in a separate record that only you can see; other users only see your age (you can hide it).</p>
 <h3>2.2 Profile and content information</h3>
@@ -114,7 +115,7 @@
 <p>After your account is deleted, we keep only:</p>
 <ul>
   <li><strong>Purchase records</strong> (which points package was bought and when): for financial record-keeping and to prevent the same purchase from being reused.</li>
-  <li><strong>An irreversible hash (SHA-256) of your email address</strong>, not the address itself: to prevent the "first activity join is free" benefit from being claimed again by deleting and re-creating an account.</li>
+  <li><strong>An irreversible hash (SHA-256) of your email address</strong>, not the address itself: to prevent the "first activity join is free" benefit and the invite reward from being claimed again by deleting and re-creating an account.</li>
   <li><strong>Reports you made and reports about you</strong>: for user safety and possible legal requests.</li>
 </ul>
 
